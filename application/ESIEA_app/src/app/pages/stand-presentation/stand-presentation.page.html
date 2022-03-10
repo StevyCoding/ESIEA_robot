@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>stand-presentation</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-search-bar></app-search-bar>
+
+  <div id="standImg">
+  <div id="imgDiv">
+    <img src="assets/images/standImg.png" />
+
+    </div>
+  </div>
+
+  <div id="infoContainer">
+    <h1>{{title}}</h1>
+    <div id="detailContainer">
+      <h2>DETAILS SUR LE STAND</h2>
+      <ul>
+        <li><b>Lieu : </b> {{location}}</li>
+        <li><b>Numero : </b> {{id}}</li>
+        <li><b>Debut Conférence : </b>{{openTime}}-{{openTime}}</li>
+      </ul>
+    </div>
+
+    <div id="descriptionContainer">
+      <h1>Description</h1>
+      <p>
+        {{presentation}}
+      </p>
+      <div>
+      <a routerLink="/stand-location"><span class="material-icons"> location_on </span>Emplacement</a
+      >
+      </div>
+    </div>
+  </div>
+
+</ion-content>

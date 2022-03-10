@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <script type="text/javascript" src="script/FileSaver.js"></script>
+<link rel="stylesheet" href="style/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <img id="img1" src="img/Logo GROUPE blanc.png">
+<div >
+<div class="container" *ngIf=" isKeyboardHide">
+
+
+
+<a  href="./addStand.html">
+    <button class="button1">
+    <div class="rect1"><i class="fa-solid fa-landmark"></i></div>
+      <span>Gerer les stands</span>
+    </button>
+    
+</a>  
+<a href="./createPost.html">
+<button class="button1">
+<div class="rect1"><i class="fa-solid fa-newspaper"></i></div>
+  <span>Gerer les rubriques</span>
+</button>
+</a>
+
+<button id="downloadButton" class="button1">
+<div class="rect1"><i class="fa fa-download" aria-hidden="true"></i></div>
+
+  <span>Télécharger le fichier json</span>
+</button>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="script/index.js"></script>
+</html>

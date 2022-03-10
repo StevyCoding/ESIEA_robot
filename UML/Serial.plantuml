@@ -1,0 +1,32 @@
+@startuml
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class  SerialCommunication{
+    - dataIn : any
+    - dataOut : any
+    - serial : Serial
+    - baudRate: int
+    - dataBits: int
+    - stopBits: int
+    - parity: int
+    - dtr: boolean
+    - rts: boolean
+    + constructor(baudRate, dataBits, stopBits, parity, dtr, rts, sleepOnPause)
+    + openConnection() : Promise<any>
+    + write(data) : Promise<any>
+    + read() : Promise<any>       
+}
+note right: class Serial import from module '@ionic-native/serial';
+
+RobotAnimation : - animations : Array
+RobotAnimation : + constructor(baudRate, dataBits, stopBits, parity, dtr, rts, sleepOnPause,animations)
+
+RobotMovement : - typeOfMouvement :int
+RobotMovement : - speed : floats
+RobotMovement : - direction : int 
+
+SerialCommunication <|-- RobotMovement
+SerialCommunication <|-- RobotAnimation
+
+@enduml

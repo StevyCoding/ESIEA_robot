@@ -1,0 +1,75 @@
+ion-content {
+  --ion-background-color: #FFFF;
+}
+
+#preview {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#preview img {
+  margin-top: 100px;
+}
+
+#preview h2 {
+  color: #2DAAE1;
+}
+
+form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+select {
+  margin-bottom: 10px !important;
+}
+
+.form-control {
+  margin-bottom: 12px !important;
+}
+.h1{
+  text-align: center;
+
+
+
+}
+.validation {
+  margin-top: 20px;
+}
+
+.but {
+  margin-right: 20px;
+}
+
+
+#addButton4{
+  background-color: rgb(2, 16, 34);
+  border: 2px solid rgb(2, 16, 34);
+  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=createPost.css.map */
+
+#poster{
+  background-color: rgb(2, 16, 34);
+  border: 2px solid rgb(2, 16, 34);
+  
+}
+#addButton5{
+  background-color: rgb(2, 16, 34);
+  border: 2px solid rgb(2, 16, 34);
+  
+}
+#img2{
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.mce-notification {
+  display : none !important;
+}

@@ -1,0 +1,34 @@
+
+@startuml
+
+!include https://raw.githubusercontent.com/bschwarz/puml-themes/master/themes/bluegray/puml-theme-bluegray.puml
+
+left to right direction
+skinparam packageStyle rectangle
+skinparam backgroundColor white
+
+actor Client as c
+
+
+rectangle "Application tablette " {
+    usecase "Choix de la langue "  as u1
+
+    usecase "Liste des stands " as u3  
+    usecase "Presentation de l'ecole" as u6
+    usecase "Indiquer la direction" as u5
+    usecase "Page présentation du stand" as u4  
+ 
+    
+
+
+    u1 <. u3 : "extend"
+    u6 .> u1 : "extend" 
+    u3 <. u4 : "extend"
+    u5 <. u4 : "include"
+    c --> u1 
+
+
+}
+
+
+@enduml

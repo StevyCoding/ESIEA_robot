@@ -1,0 +1,56 @@
+@startuml
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+class  Stand{
+    -id:int
+    -y:float
+    -x:float
+    -title:String
+    -location:String
+    -openTime:Time
+    -closeTime:Time
+    -presentation:String
+    -image:Image    
+    ..
+
+}
+class rubrique{
+    - id   : Int
+    -descriptions : String
+}
+class Image{
+    -path: String
+    -resolution: String
+    -x:float
+    -y:float
+}
+
+
+class Map{
+    - width : float
+    - height : float
+    - image : String
+    - stand : Stand
+}
+
+class path{
+    - distance : float
+    
+}
+class Presentation(){
+    - description : String
+}
+class Robot{
+    
+    -y:float
+    -x:float
+    -speed:float
+    -battery:int
+
+    +setSpeed(speed:float):float
+    +setPosition(x:float,y:float):float
+
+}
+note bottom :implementé en dernier 
+
+@enduml

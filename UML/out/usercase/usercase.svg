@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="682.2917px" preserveAspectRatio="none" style="width:477px;height:682px;background:#00000000;" version="1.1" viewBox="0 0 477 682" width="477.0833px" zoomAndPan="magnify"><defs><linearGradient id="g1az2wdirq4yug0" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#FEFEFE"/></linearGradient><linearGradient id="g1az2wdirq4yug1" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#33B2E2"/><stop offset="100%" stop-color="#009FDB"/></linearGradient></defs><g><!--MD5=[29770558126c08d286715f3a538f5e9c]
+cluster Application tablette --><rect fill="url(#g1az2wdirq4yug0)" height="668.75" rx="10.4167" ry="10.4167" style="stroke:#C2C2C2;stroke-width:2.0833333333333335;" width="306.25" x="164.5833" y="7.2917"/><text fill="#5A5A5A" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="133.3333" x="248.9583" y="30.2755">Application tablette</text><ellipse cx="317.5614" cy="542.8397" fill="url(#g1az2wdirq4yug1)" rx="112.8739" ry="25.6522" style="stroke:#33B2E2;stroke-width:2.0833333333333335;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="121.875" x="254.5405" y="545.7277">Choix de la langue</text><ellipse cx="317.7031" cy="422.0064" fill="url(#g1az2wdirq4yug1)" rx="106.2447" ry="25.6522" style="stroke:#33B2E2;stroke-width:2.0833333333333335;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="112.5" x="259.3697" y="424.8944">Commande Vocal</text><ellipse cx="317.8818" cy="84.5064" fill="url(#g1az2wdirq4yug1)" rx="103.2985" ry="25.6522" style="stroke:#33B2E2;stroke-width:2.0833333333333335;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="108.3333" x="261.6318" y="87.3944">Liste des stands</text><ellipse cx="317.7859" cy="632.3072" fill="url(#g1az2wdirq4yug1)" rx="122.9942" ry="27.0988" style="stroke:#33B2E2;stroke-width:2.0833333333333335;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="150" x="242.7859" y="635.1952">Presentation de l'ecole</text><ellipse cx="317.5796" cy="296.9534" fill="url(#g1az2wdirq4yug1)" rx="136.3296" ry="29.7659" style="stroke:#33B2E2;stroke-width:2.0833333333333335;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="184.375" x="225.3921" y="299.8414">Page présentation du stand</text><ellipse cx="317.7221" cy="172.0861" fill="url(#g1az2wdirq4yug1)" rx="116.1596" ry="25.7319" style="stroke:#33B2E2;stroke-width:2.0833333333333335;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="131.25" x="252.0971" y="174.9741">Indiquer la direction</text><!--MD5=[8e9b2d9d80e066cced8e5d90e9bdea61]
+entity c--><ellipse cx="25" cy="504.1667" fill="url(#g1az2wdirq4yug1)" rx="8.3333" ry="8.3333" style="stroke:#33B2E2;stroke-width:1.5625;"/><path d="M25,512.5 L25,540.625 M11.4583,520.8333 L38.5417,520.8333 M25,540.625 L11.4583,556.25 M25,540.625 L38.5417,556.25 " fill="none" style="stroke:#33B2E2;stroke-width:1.5625;"/><text fill="#009FDB" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="37.5" x="6.25" y="579.7546">Client</text><!--MD5=[6f3d203390236a6e66bb572acce4249f]
+link u1 to u2--><path d="M317.7083,517.0833 C317.7083,498.3438 317.7083,472.8229 317.7083,452.9167 " fill="none" id="u1-to-u2" style="stroke:#009FDB;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#009FDB" points="317.7083,447.4688,313.5417,456.8438,317.7083,452.6771,321.875,456.8438,317.7083,447.4688" style="stroke:#009FDB;stroke-width:3.125;"/><text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="45.8333" x="275" y="487.5671">include</text><!--MD5=[853a7b774c2dd5ad0636c3a084f75ad8]
+reverse link u2 to u3--><path d="M247.2813,399.6458 C216.5417,387.2604 181.7708,369.3021 156.25,344.7917 C119.2813,309.2813 107.7292,286.9375 116.6667,236.4583 C125.6042,185.9792 118.4792,162.7813 156.25,128.125 C174.5417,111.3333 198.625,100.8854 222.5938,94.4063 " fill="none" id="u2-backto-u3" style="stroke:#009FDB;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#009FDB" points="252.1771,401.5833,245.0006,394.2519,247.3361,399.6619,241.9262,401.9974,252.1771,401.5833" style="stroke:#009FDB;stroke-width:3.125;"/><text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="45.8333" x="92.7083" y="258.4005">extend</text><!--MD5=[9b95587bd504d988686271efdb1d40bc]
+link u6 to u2--><path d="M202.8229,642.0104 C170.3542,638.5 138.0729,627.8646 116.6667,603.125 C62.5,540.5313 178.0417,478.2708 255.3958,445.5208 " fill="none" id="u6-to-u2" style="stroke:#009FDB;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#009FDB" points="260.4375,443.4063,250.18,443.2155,255.6396,445.4327,253.4224,450.8922,260.4375,443.4063" style="stroke:#009FDB;stroke-width:3.125;"/><text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="45.8333" x="92.7083" y="591.7338">extend</text><!--MD5=[63772286c7adb7823d8b6a7992dd09b1]
+reverse link u2 to u4--><path d="M317.7083,390.9167 C317.7083,371.3542 317.7083,346.2083 317.7083,326.8333 " fill="none" id="u2-backto-u4" style="stroke:#009FDB;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#009FDB" points="317.7083,396.2813,321.875,386.9063,317.7083,391.0729,313.5417,386.9063,317.7083,396.2813" style="stroke:#009FDB;stroke-width:3.125;"/><text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="45.8333" x="275" y="366.7338">extend</text><!--MD5=[bcdf03e21894016d8606a8e0841acf53]
+link u4 to u5--><path d="M317.7083,266.9375 C317.7083,247.6563 317.7083,222.6458 317.7083,203.1146 " fill="none" id="u4-to-u5" style="stroke:#009FDB;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#009FDB" points="317.7083,197.7604,313.5417,207.1354,317.7083,202.9688,321.875,207.1354,317.7083,197.7604" style="stroke:#009FDB;stroke-width:3.125;"/><text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="45.8333" x="275" y="237.5671">include</text><!--MD5=[67c3a41ad9ffa9bcc9340605eb2eaf08]
+link c to u1--><path d="M52.3438,542.7083 C85.6458,542.7083 145.2083,542.7083 199.375,542.7083 " fill="none" id="c-to-u1" style="stroke:#009FDB;stroke-width:3.125;"/><polygon fill="#009FDB" points="204.6042,542.7083,195.2292,538.5417,199.3958,542.7083,195.2292,546.875,204.6042,542.7083" style="stroke:#009FDB;stroke-width:3.125;"/><!--MD5=[e59757df904c82d037cb42af85efe424]
+@startuml
+
+!include https://raw.githubusercontent.com/bschwarz/puml-themes/master/themes/bluegray/puml-theme-bluegray.puml
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor Client as c
+
+
+rectangle "Application tablette " {
+    usecase "Choix de la langue "  as u1
+    usecase "Commande Vocal " as u2
+    usecase "Liste des stands " as u3  
+    usecase "Presentation de l'ecole" as u6
+    usecase "Page présentation du stand" as u4  
+    usecase "Indiquer la direction" as u5
+    
+
+    u1 .> u2 : "include"
+    u2 <. u3 : "extend"
+    u6 .> u2 : "extend" 
+    u2 <. u4 : "extend"
+    u4 .> u5 : "include"
+    c - -> u1 
+
+
+}
+
+
+@enduml
+
+@startuml
+
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+
+
+skinparam defaultFontName        "Verdana"
+skinparam defaultFontSize        12
+skinparam dpi                    100
+skinparam shadowing              false
+skinparam roundcorner            20
+skinparam ParticipantPadding     30
+skinparam BoxPadding             40
+skinparam Padding                8
+skinparam ArrowColor             #959595
+skinparam stereotype {
+    CBackgroundColor #f5f5f5
+    CBorderColor #c2c2c2
+    ABackgroundColor #c4ca33
+    ABorderColor #919700
+    IBackgroundColor #d95555
+    IBorderColor #a62222
+    EBackgroundColor #ee9033
+    EBorderColor #bb5d00
+    NBackgroundColor #3786be
+    NBorderColor #04538b
+}
+skinparam title {
+	FontColor	                 #009fdb
+	BorderColor	                 #c2c2c2
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              #f5f5f5-#f2f2f2
+}
+
+
+skinparam legend {
+	BackgroundColor #f2f2f2
+	BorderColor #c2c2c2
+	FontColor #5a5a5a
+}
+
+skinparam swimlane {
+	BorderColor #0568ae
+	BorderThickness 2
+	TitleBackgroundColor  #f5f5f5-#f2f2f2
+	TitleFontColor #009fdb
+}
+
+
+skinparam activity {
+	FontColor #fff
+	BorderColor #009fdb
+	BackgroundColor #33b2e2-#009fdb
+	BarColor #b5bd00
+	StartColor #0568ae
+	EndColor #0568ae
+	DiamondBackgroundColor #f5f5f5-#c2c2c2
+  	DiamondBorderColor #c2c2c2
+	DiamondFontColor #5a5a5a
+}
+
+
+skinparam participant {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	FontColor #009fdb
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #009fdb
+	FontColor #5a5a5a
+}
+
+
+skinparam sequence {
+	BorderColor #009fdb
+	TitleFontColor #009fdb
+	BackgroundColor transparent
+	StartColor #009fdb
+	EndColor #009fdb
+	BoxBackgroundColor transparent
+	BoxBorderColor #959595
+	BoxFontColor #5a5a5a
+	DelayFontColor #5a5a5a
+	LifeLineBorderColor #c2c2c2
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #f5f5f5
+	GroupBorderColor #959595
+	GroupFontColor #5a5a5a
+	GroupHeaderFontColor #0568ae
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor #fff-#d2d2d2
+    DividerBorderColor #959595
+    DividerBorderThickness 2
+    DividerFontColor #5a5a5a
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #959595
+	ReferenceFontColor #5a5a5a
+	ReferenceHeaderFontColor #0568ae
+	StereotypeFontColor #fff
+}
+
+
+skinparam partition {
+	BorderColor #009fdb
+	FontColor #009fdb
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+}
+
+
+skinparam control {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	FontColor #009fdb
+}
+
+
+skinparam entity {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	FontColor #009fdb
+}
+
+
+skinparam boundary {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	FontColor #009fdb
+}
+
+
+skinparam agent {
+	BackgroundColor #orange
+	BorderColor #999999
+	FontColor #333333
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #3786be-#0568ae
+	BorderColor #0568ae
+	FontColor #fff
+}
+
+
+skinparam artifact {
+	BackgroundColor #fff-#d2d2d2
+	BorderColor #c2c2c2
+	FontColor #5a5a5a
+}
+
+
+skinparam component {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+}
+
+
+skinparam interface {
+	BackgroundColor  #d95555
+	BorderColor  #cf2a2a
+	FontColor #5a5a5a
+}
+
+
+skinparam storage {
+	BackgroundColor #ee9033-#ea7400
+  	BorderColor #ea7400
+	FontColor #fff
+}
+
+
+skinparam node {
+	BackgroundColor #f5f5f5-#f2f2f2
+	BorderColor #c2c2c2
+	FontColor #009fdb
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #009fdb
+}
+
+
+skinparam database {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	BorderColor #007faf
+}
+
+
+skinparam class {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	HeaderBackgroundColor #33b2e2-#009fdb
+	StereotypeFontColor #5a5a5a
+	BorderThickness 1
+	AttributeFontColor #d2d2d2
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	StereotypeFontColor #5a5a5a
+	BorderThickness 1
+	AttributeFontColor #d2d2d2
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	BorderThickness 2
+	StereotypeFontColor #009fdb
+}
+
+
+skinparam rectangle {
+		FontColor #5a5a5a
+	BorderColor #c2c2c2
+	BackgroundColor #fff-#fefefe
+	BorderThickness 2
+	StereotypeFontColor #009fdb
+}
+
+
+skinparam package {
+	FontColor #009fdb
+	BorderColor #33b2e2
+	BackgroundColor transparent
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #fff-#f5f5f5
+  	BorderColor #ea7400
+	FontColor #ea7400
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #fff-#f5f5f5
+  	BorderColor #0568ae
+	FontColor #0568ae
+	BorderThickness 2
+}
+
+
+skinparam state {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+	BorderColor #007faf
+	StartColor #0568ae
+	EndColor #0568ae
+	AttributeFontColor #d2d2d2
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+	
+	FontColor #fff
+	BorderColor #33b2e2
+	BackgroundColor #33b2e2-#009fdb
+
+}
+
+
+skinparam card {
+	BackgroundColor #3786be-#0568ae
+	BorderColor #0568ae
+	FontColor #fff
+}
+
+
+skinparam file {
+	BackgroundColor #f5f5f5-#f2f2f2
+	BorderColor #0568ae
+	FontColor #5a5a5a
+
+}
+
+
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor Client as c
+
+
+rectangle "Application tablette " {
+    usecase "Choix de la langue "  as u1
+    usecase "Commande Vocal " as u2
+    usecase "Liste des stands " as u3  
+    usecase "Presentation de l'ecole" as u6
+    usecase "Page présentation du stand" as u4  
+    usecase "Indiquer la direction" as u5
+    
+
+    u1 .> u2 : "include"
+    u2 <. u3 : "extend"
+    u6 .> u2 : "extend" 
+    u2 <. u4 : "extend"
+    u4 .> u5 : "include"
+    c - -> u1 
+
+
+}
+
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 14:40:07 CEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

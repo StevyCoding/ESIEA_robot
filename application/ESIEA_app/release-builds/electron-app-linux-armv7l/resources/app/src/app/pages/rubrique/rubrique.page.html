@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Menu
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  [fullscreen]="true">
+
+
+<app-search-bar></app-search-bar>
+
+
+
+
+<div  class="container" *ngIf=" isKeyboardHide">
+
+<a  *ngFor="let  rubrique of rubriques">
+<button (click)="showDetail(rubrique)" class="button1">
+<div class="rect1"></div>
+  <span>{{rubrique.name}}</span>
+</button>
+</a>
+</div>
+</ion-content>

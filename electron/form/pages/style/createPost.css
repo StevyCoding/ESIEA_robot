@@ -1,0 +1,38 @@
+ion-content {
+  --ion-background-color: #FFFF;
+}
+
+#preview {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#preview img {
+  margin-top: 100px;
+}
+
+#preview h2 {
+  color: #2DAAE1;
+}
+
+form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+select {
+  margin-bottom: 10px !important;
+}
+
+.form-control {
+  margin-bottom: 12px !important;
+}
+
+.validation {
+  margin-top: 20px;
+}
+
+.but {
+  margin-right: 20px;
+}
+/*# sourceMappingURL=createPost.css.map */

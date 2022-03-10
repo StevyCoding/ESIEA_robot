@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>standListPage</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<app-search-bar>
+</app-search-bar>
+<div id="content">
+<div  *ngFor="let  stand of stands">
+<div  (click)="showDetail(stand)">
+<div id=card>
+<img id="image" src="{{'assets/data/image/'+stand.image}}" alt="">
+<div id=info>
+<p id="title" style="text-align:center;">{{stand.title}}</p>
+<p id="description"> <b>horaire:</b> {{stand.openTime}}-{{stand.closeTime}} <br><br>
+{{stand.presentation | slice:0:40}}...
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</ion-content>

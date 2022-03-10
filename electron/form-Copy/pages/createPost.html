@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://cdn.tiny.cloud/1/n4u7254r3pswl8honi1jxfyjtce177f56fgm94jozmixj4fz/tinymce/5/tinymce.min.js"
+      referrerpolicy="origin"
+    ></script>
+
+    <link rel="stylesheet" href="style/createPost.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script>window.$ = window.jQuery = require('jquery');</script>
+
+  </head>
+  <body>
+    <img id="img2" src="img/Logo GROUPE blanc fond bleu.png"> 
+    <form id="form1" method="post">
+      <h1>Créer une rubrique</h1>
+      <label for="name">rubrique : </label>
+      <input class="form-control" type="text" id="name" name="name" placeholder="entrez le nom de la rubrique" require>
+      <textarea name="editor1" id="editor1" rows="20" cols="80" placeholder="rediger une présentation" require> </textarea>
+      <input type="button" id="poster"  class="validation btn btn-primary" value="Poster">
+     <a href="index.html"><button type="button" id="addButton5" class="validation btn btn-primary">Retour</button></a>   
+    </form>
+    <div id="overview">
+<table class="table id="tab">
+
+
+  <thead>
+    <tr>  
+    <th>Rubriques</th>
+    <th>Action</th>
+    </tr>
+  </thead>
+    <tbody id="tbody">
+    </tbody>
+    </table>
+<button class="btn btn-primary" id="addButton4">supprimer toutes les rubriques</button>
+</div>
+<div id="preview">
+
+</div>
+  </body>
+  <script type="text/javascript" src="script/createPost.js"></script>
+</html>

@@ -1,0 +1,22 @@
+ion-content{
+  --ion-background-color: #001822;
+}
+
+#container{
+  margin : 0 auto;
+  width:35em;
+  height:20em;
+  position: absolute;
+  //border: 1px solid white;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#container img{
+  margin-left: 50px;
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+  box-shadow: -2px 2px 5px #000000;
+}

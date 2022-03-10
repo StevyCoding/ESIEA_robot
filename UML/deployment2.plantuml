@@ -1,0 +1,43 @@
+@startuml
+
+!include https://raw.githubusercontent.com/bschwarz/puml-themes/master/themes/bluegray/puml-theme-bluegray.puml
+skinparam linetype polyline
+skinparam linetype ortho
+skinparam backgroundColor white
+node "Robot accueuil" <<Robot>> {
+node "Appareill Android" <<device>> as d1 {
+    node "Android 6.0" <<AndroidPlatform>>  {
+        component "Robot_Accueil.apk" <<Android application>> as c1
+        file "standList.json" <<JSON_FILE>> as f1
+    }
+    
+}
+node "Arduino Mega" <<device>> as d4{
+
+} 
+}
+node "ordinateur" <<device>> as d2 {
+
+    node "Windows/Mac/Linux" <<Système d'exploitation>> {
+        component "Robot_config" <<Desktop application>> as c2
+        file "standList.json" <<JSON_FILE>> as f2
+        
+    }
+}
+
+actor "commenditaire" <<actor>>  as a1
+
+node "clé usb" <<device>> as d3 {
+        file "standList.json" <<JSON_FILE>> as f3
+}
+
+a1 --> d1  : "usb"
+d3 -- a1  : ""
+d2 --> a1 : "usb"
+d1 --> d4 : "rs232"
+
+ 
+c1 .> f1 
+
+c2 .> f2
+@enduml

@@ -1,0 +1,90 @@
+$white : #ffffff;
+$grey :  #b6b3b3;
+$grey2 :  #646060;
+
+$esiea_blue : #001822;
+$black : #000000;
+
+ion-content {
+    --ion-background-color: #ffffff;
+}
+#imgDiv{
+  margin-bottom: px;
+}
+  #standImg {
+    background-color: $esiea_blue;
+    height: 25em;
+    margin-top:64px;
+   // border: 4px solid $white;
+    width: 100%;
+  }
+  #standImg img{
+    margin-left: 25%;
+    margin-top:2px;
+    box-shadow: -2px 2px 5px #4b4a4a;
+    width: 50%;
+  }
+
+
+
+  #infoContainer{
+  //border: 4px solid red;
+
+    margin: 0 auto;
+    color : $black; 
+    width: 70%;
+    h1{
+      text-align: center;
+      font-size:35px;
+      margin: 0 auto;
+    }
+   margin-bottom:25px;
+  }
+
+  #detailContainer{
+    
+    width: 50%;
+    h2{ // detail
+      font-size:25px;
+      font-weight:bold;
+    }
+    ul{
+      font-size:20px;
+      padding: 0;
+      list-style-type: none;
+      li{
+        margin-bottom: 10px;
+      }
+    }
+ // border: 4px solid green;
+   color: $grey2;
+
+
+   
+  }
+  #descriptionContainer{
+  width: 100%;
+  //border: 4px solid green;
+
+    h1{// stand title
+      text-align: center;
+    }
+    div{
+      width:200px;
+      margin-left:auto;
+      margin-right:auto;
+
+   //    border: 4px solid pink;
+    a{
+      text-decoration: none;
+      color: $esiea_blue;
+      font-size:25px;
+      span{
+      font-size:40px;
+      }
+    }
+  }
+    p{
+      font-size:20px;
+    }
+  }

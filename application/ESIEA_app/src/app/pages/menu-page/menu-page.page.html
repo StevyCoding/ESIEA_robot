@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Menu
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  [fullscreen]="true">
+
+
+<app-search-bar></app-search-bar>
+  <img id="img1" src="assets/images/Logo GROUPE blanc.png">
+  
+<div class="container" *ngIf=" isKeyboardHide">
+
+<a routerLink="/rubrique">
+<button class="button1">
+<div class="rect1"><span class="icon material-icons">
+article
+</span></div>
+  <span>Information sur l'école</span>
+</button>
+</a>
+<a routerLink="/stand-list-page">
+<button class="button1">
+<div class="rect1">
+<span class="icon material-icons">
+school
+</span>
+</div>
+  <span>Liste des stands</span>
+</button>
+</a>
+</div>
+
+</ion-content>

@@ -1,0 +1,53 @@
+$white : #FFFFFF;
+$black: #000000;
+$grey:#424040;
+ion-content{
+    --ion-background-color: #001822;
+
+  }
+
+#content {
+  margin-top:80px;
+}
+#card{
+
+  background-color: $white ;
+  width: 40em;
+  height: 10em;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  box-shadow: -4px 3px 5px #292727;
+}
+#image{
+  margin-top: 5px;
+  margin-left:10px;
+  float: left;
+  display : inline-block;
+
+  width: 9.5em;
+  height: 9.5em;
+  background-color:#001822;
+  border:  solid #001822;
+  border-radius: 50%;
+}
+#info{
+  float: left;
+  margin-top: auto;
+  margin-left: 15px;
+}
+#info #title{
+
+  font-weight:bold;
+  color :$black;
+}
+#info #description{
+
+  color :$grey;
+}
+.icon{
+  color:#001822;
+
+  margin: auto auto;
+}

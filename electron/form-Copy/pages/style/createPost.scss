@@ -1,0 +1,33 @@
+$white : #FFFFFF;
+$esiea_blue : #2DAAE1;
+$black: #000000;
+ion-content{
+    --ion-background-color: #FFFF;
+
+  }
+#preview{
+    width: 70%;
+    margin: 0 auto;
+h2{
+      color: $esiea_blue
+  }
+
+}
+form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+select {
+    margin-bottom: 10px !important;
+}
+
+.form-control{
+    margin-bottom: 12px !important;
+}
+.validation {
+margin-top: 20px;
+}
+.but{
+    margin-right: 20px;
+}
